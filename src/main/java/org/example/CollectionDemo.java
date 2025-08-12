@@ -22,6 +22,10 @@ import java.util.stream.Collectors;
 import io.milvus.v2.service.vector.request.DeleteReq;
 import io.milvus.v2.service.vector.response.DeleteResp;
 
+/**
+ * @author Guohan
+ * Milvus Demo
+ */
 public class CollectionDemo {
 
     private static final Logger log = Logger.getLogger(CollectionDemo.class);
@@ -153,7 +157,7 @@ public class CollectionDemo {
 
     public static MilvusClientV2 getClient() {
         String CLUSTER_ENDPOINT = "https://in03-110c9f11e0c1e40.serverless.ali-cn-hangzhou.cloud.zilliz.com.cn";
-        String TOKEN = "e37b6e6bb19b5c37390737dbc5cc01918ed48f908bf1df0f33cda42b3a21c6c862662201282a967f0871ffc092f099244960e039";
+        String TOKEN = "xxx";
 // A valid token could be either
 // - An API key, or
 // - A colon-joined cluster username and password, as in `user:pass`

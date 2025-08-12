@@ -7,7 +7,7 @@ public class Connect {
 
     public static void main(String[] args) {
         String CLUSTER_ENDPOINT = "https://in03-110c9f11e0c1e40.serverless.ali-cn-hangzhou.cloud.zilliz.com.cn";
-        String TOKEN = "e37b6e6bb19b5c37390737dbc5cc01918ed48f908bf1df0f33cda42b3a21c6c862662201282a967f0871ffc092f099244960e039";
+        String TOKEN = "xx";
 // A valid token could be either
 // - An API key, or
 // - A colon-joined cluster username and password, as in `user:pass`
